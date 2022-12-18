@@ -23,7 +23,7 @@ Include your code here
 
 ## OUTPUT
 
-Include the screenshot of your admin page.
+"C:\Users\SEC\Desktop\Select ig to change _ Django site admin.pdf"
 
 
 ## RESULT
