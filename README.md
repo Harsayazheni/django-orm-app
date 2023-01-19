@@ -23,8 +23,6 @@ Write your own steps
 Include your code here
 
 ## OUTPUT
-![Select ig to change _ Django site admin](https://user-images.githubusercontent.com/118708467/208279338-78de36d8-ecef-4e19-b77a-0104ca0dc4cb.png)
-
 
 
 
