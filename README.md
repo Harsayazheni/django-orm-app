@@ -24,7 +24,6 @@ Write your own steps
 from django.db import models
 from django.contrib import admin
 
-# Create your models here.
 class GolfClubMember(models.Model):
     member_id = models.CharField(max_length=8,primary_key=True)
     name =models.CharField(max_length=100)
