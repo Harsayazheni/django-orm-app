@@ -43,7 +43,7 @@ class Instagrampage(models.Model):
     validity = models.IntegerField()
 
 class Instagrampage(admin.ModelAdmin):
-    list_display = ('member_id','name','phone_number','membership_type','validity')
+    list_display = ('username','name','posts','email','privacy')
  ```
 
 #IN admin.py:-
