@@ -34,7 +34,7 @@ from django.db import models
 from django.contrib import admin
 
 # Create your models here.
-class GolfClubMember(models.Model):
+class Instagrampage(models.Model):
     member_id = models.CharField(max_length=8,primary_key=True)
     name =models.CharField(max_length=100)
     phone_number = models.IntegerField()
@@ -42,16 +42,16 @@ class GolfClubMember(models.Model):
     membership_type = models.CharField(max_length=100)
     validity = models.IntegerField()
 
-class GolfClubAdmin(admin.ModelAdmin):
+class Instagrampage(admin.ModelAdmin):
     list_display = ('member_id','name','phone_number','membership_type','validity')
  ```
 
 #IN admin.py:-
 ```
 from django.contrib import admin
-from .models import GolfClubMember,GolfClubAdmin
+from .models import Instagrampage,InstagrampageAdmin
 
-admin.site.register(GolfClubMember,GolfClubAdmin)
+admin.site.register(Instagrampage,InstagrampageAdmin)
 ```
 
 ## OUTPUT
